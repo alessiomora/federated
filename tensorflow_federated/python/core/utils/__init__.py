@@ -15,8 +15,6 @@
 
 from tensorflow_federated.python.core.utils.adaptive_zeroing import build_adaptive_zeroing_mean_process
 from tensorflow_federated.python.core.utils.computation_utils import update_state
-from tensorflow_federated.python.core.utils.differential_privacy import build_dp_aggregate_process
-from tensorflow_federated.python.core.utils.differential_privacy import build_dp_query
 from tensorflow_federated.python.core.utils.encoding_utils import build_encoded_broadcast_process
 from tensorflow_federated.python.core.utils.encoding_utils import build_encoded_mean_process
 from tensorflow_federated.python.core.utils.encoding_utils import build_encoded_sum_process
